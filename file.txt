@@ -1,0 +1,17 @@
+File- create
+    delete
+    rename
+    file/folder
+
+
+FileInputStream- to read the data from file.
+FileOutputStream- to Write into a file.
+
+1. using getbytes()
+
+object of a file class
+
+String input- to write into your file.
+convert that string input to a byte[] (byte array) - string.getbyte();
+object of a FileOutputStream class
+FileOutputStream.write(byte[]);
